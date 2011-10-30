@@ -6,7 +6,7 @@
 set -eu
 
 if [[ ! $# -eq 1 ]]; then
-  echo "Usage $(basename $0) <port>"
+  echo "Usage: $(basename $0) <port>"
   exit 1
 fi
 
